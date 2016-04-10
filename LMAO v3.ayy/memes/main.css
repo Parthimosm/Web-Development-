@@ -1,0 +1,27 @@
+body{
+    background-image:url("http://i2.kym-cdn.com/photos/images/newsfeed/000/632/652/6ca.jpg");
+    background-attachment:fixed;
+}
+
+.parent {
+  width: 100px;
+     position:relative;
+}
+
+img {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+    border: 4px solid grey; 
+        
+}
+
+.hi{
+    position:fixed;
+    top:10px;
+    left:60px;
+}
+
+.grow { transition: all .2s ease-in-out; 
+        position:relative;}
+.grow:hover { transform: scale(1.1); }

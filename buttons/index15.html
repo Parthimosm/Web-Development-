@@ -1,0 +1,42 @@
+<!Doctype html>
+<head>
+<style>
+    button{
+        float:left; 
+        padding:15px 32px; 
+        margin:0 0px; 
+        border: 2px solid cadetblue ; 
+        background-color:white; 
+        transition:all 1s ease; 
+        position: relative;
+    }
+    button:before {
+	content:'';
+    
+	position: absolute;
+	top: 40.5px;
+	left: 0px;
+	width: 0px;
+	height: 5px;
+	background-color:cadetblue;
+	border-radius: 0;
+	transition: all 0.5s ease;
+} 
+
+
+button:hover:before {
+	width: 100%;
+}
+
+    
+    
+    </style>
+    
+</head>
+
+<body>
+    <button>Button</button>
+    <button>Button</button>
+    <button>Button</button>
+    <button>Button</button>
+</body>
