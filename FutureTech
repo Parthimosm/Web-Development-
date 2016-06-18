@@ -1,0 +1,336 @@
+<!doctype html>
+<html style="background-image:url("http://i2.kym-cdn.com/photos/images/newsfeed/000/632/652/6ca.jpg");">
+
+<head>
+    <Title>FutureTech</Title>
+    <link rel="stylesheet" href="main.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  
+    <style>
+        #mylogo {
+             padding-top:20px;
+             padding-bottom:10px;
+            height:300px;
+            
+        }
+        
+        #serviceimg {
+            
+            height:150px;
+            
+        }
+    </style>
+    
+</head>
+    
+<body data-spy="scroll" data-target="#my-navbar">
+ 
+    	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+  		<div class="container">
+  			<div class="navbar-header">
+  				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  				</button>
+
+  				<a href="" class="navbar-brand">FutureTech</a>
+  			</div><!-- Navbar Header-->
+  			<div class="collapse navbar-collapse" id="navbar-collapse">
+  				
+  				<ul class="nav navbar-nav">
+                    <li><a href="#features">Services</a> 	
+  					<li><a href="#gallery">Gallery</a> 
+  					<li><a href="#feedback">Feedback</a> 
+  					<li><a href="#faq">Faq</a> 
+  					<li><a href="#contact">ContactUs</a> 
+  				</ul>
+  			</div>
+  		</div><!-- End Container-->
+  	</nav><!-- End navbar -->
+        
+        
+        <div class="jumbotron">
+  		<div class="container text-center">
+  			<img id="mylogo" src="futuretech.png" alt="FutureTech">
+  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur </p>
+
+  			<div class="btn-group">
+  				<a href="#contact" class="btn btn-lg btn-warning">Get A Quote</a>
+  			</div>
+  		</div><!-- End container -->
+  	</div><!-- End jumbotron-->
+        
+        
+    
+<!-- features -->
+    <section>
+	<div class="container">
+		
+			<div class="page-header" id="features">
+  				<h2>Services.<small> Vew all our services.</small></h2>
+  			</div><!-- End Page Header -->
+
+  			<div class="row">
+  				<div class="col-sm-8">
+  					<h3>This is the heading</h3>
+  					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris tortor, eleifend sit amet fringilla ac, tincidunt id massa. Proin et odio mattis, venenatis lacus vel, faucibus elit</p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img id="serviceimg" src="https://i.vimeocdn.com/portrait/58832_300x300.jpg" class="img-responsive" alt="image">
+  				</div>
+  			</div><!-- End row -->
+  			<div class="row">
+  				<div class="col-sm-8">
+  					<h3>This is the heading</h3>
+  					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris tortor, eleifend sit amet fringilla ac, tincidunt id massa. Proin et odio mattis, venenatis lacus vel, faucibus elit</p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img id="serviceimg" src="https://i.vimeocdn.com/portrait/58832_300x300.jpg" class="img-responsive" alt="image">
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="col-sm-8">
+  					<h3>This is the heading</h3>
+  					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris tortor, eleifend sit amet fringilla ac, tincidunt id massa. Proin et odio mattis, venenatis lacus vel, faucibus elit</p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img id="serviceimg" src="https://i.vimeocdn.com/portrait/58832_300x300.jpg" class="img-responsive" alt="image">
+  				</div>
+  			</div>
+
+  			<hr>
+
+  			<div class="row">
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-ok"></span>
+  							<h4>This is the Heading</h4>
+  							<p>Nam velit est, tempor vel posuere et, auctor a lectus. Aenean gravida, est accumsan dictum rhoncus, lectus mi suscipit lacus, suscipit accumsan augue tellus vitae dolor. Morbi in euismod dui</p>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-star"></span>
+  							<h4>This is the Heading</h4>
+  							<p>Nam velit est, tempor vel posuere et, auctor a lectus. Aenean gravida, est accumsan dictum rhoncus, lectus mi suscipit lacus, suscipit accumsan augue tellus vitae dolor. Morbi in euismod dui</p>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-play-circle"></span>
+  							<h4>This is the Heading</h4>
+  							<p>Nam velit est, tempor vel posuere et, auctor a lectus. Aenean gravida, est accumsan dictum rhoncus, lectus mi suscipit lacus, suscipit accumsan augue tellus vitae dolor. Morbi in euismod dui</p>
+  						</div>
+  					</div>
+  				</div>
+  			</div><!-- end row -->
+</div><!-- End Container -->
+		</section>    
+
+  
+    <!-- Gallery -->
+    <section>
+	<div class="container">
+		
+			<div class="page-header" id="gallery">
+  				<h2>Gallery.<small> Check out the Awesome Gallery</small></h2>
+  			</div>
+
+  			<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+  				<ol class="carousel-indicators">
+  					<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+  					<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+  					<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+  					<li data-target="#screenshot-carousel" data-slide-to="3"></li>
+  				</ol>
+  				<div class="carousel-inner">
+  					<div class="item active">
+  						<img src="http://www.metropol24.com/wp-content/uploads/2016/04/sr_molecules-1920x550.jpg" alt="Text of the image">
+  						<div class="carousel-caption">
+  							<h3>Image Test 1</h3>
+  							<p>Test 1</p>
+  						</div>
+  					</div>
+  					<div class="item">
+  						<img src="http://www.nbt-europe.com/wordpress/wp-content/uploads/1920x550.jpg" alt="Text of the image">
+  						<div class="carousel-caption">
+  							<h3>Test Image 2</h3>
+  							<p>Test 2</p>
+  						</div>
+  					</div>
+  					<div class="item">
+  						<img src="http://www.liveatmagnolia.com/wp-content/uploads/2014/02/BG_hillsSunset_1920x550.jpg" alt="Text of the image">
+  						<div class="carousel-caption">
+  							<h3>Test Image 3</h3>
+  							<p>Test 3</p>
+  						</div>
+  					</div>
+  					<div class="item">
+  						<img src="http://hotelrobinghandruk.com/wp-content/uploads/2016/02/mountain-range-1920x550.jpg" alt="Text of the image">
+  						<div class="carousel-caption">
+  							<h3>Test Image 4</h3>
+  							<p>Image 4</p>
+  						</div>
+  					</div>
+
+  				</div><!-- End Carousel inner -->
+  				<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+  					<span class="glyphicon glyphicon-chevron-left"></span>
+  				</a>
+  				<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+  					<span class="glyphicon glyphicon-chevron-right"></span>
+  				</a>
+  			</div><!-- End Carousel -->
+</div>
+		</section>
+	
+
+  <section>
+    <div class="container">
+  		
+  			<div class="page-header" id="feedback">
+  				<h2>Feedback.<small> Check out the Awesome Feedback</small></h2>
+  			</div>
+
+  			<div class="row">
+  				<div class="col-md-4">
+  					<blockquote>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida quam ac ante rutrum, in mollis ligula mattis. Integer nulla nisi, ullamcorper et posuere vel</p>
+  						<footer>Lorem ipsum</footer>
+  					</blockquote>
+  				</div>
+  				<div class="col-md-4">
+  					<blockquote>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida quam ac ante rutrum, in mollis ligula mattis. Integer nulla nisi, ullamcorper et posuere vel</p>
+  						<footer>Lorem ipsum</footer>
+  					</blockquote>
+  				</div>
+  				<div class="col-md-4">
+  					<blockquote>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida quam ac ante rutrum, in mollis ligula mattis. Integer nulla nisi, ullamcorper et posuere vel</p>
+  						<footer>Lorem ipsum</footer>
+  					</blockquote>
+  				</div>
+  			</div><!-- End row -->
+  		
+  	</div><!--End Container-->
+    </section>
+	
+
+<!-- Faq -->
+
+    <section>
+    <div class="container">
+      
+        <div class="page-header" id="faq">
+          <h2>FAQ.<small> Engaging with customers.</small></h2>
+        </div><!-- End Page Header -->
+
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+                  Question one?
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-1" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas non urna in fringilla. Praesent consequat est at feugiat faucibus
+                </div>
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+                  Question Two?
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-2" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas non urna in fringilla. Praesent consequat est at feugiat faucibus
+                </div>
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+            
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">
+                  Question Three?
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-3" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas non urna in fringilla. Praesent consequat est at feugiat faucibus
+                </div>
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+            
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-4" data-toggle="collapse" data-parent="#accordion">
+                  Question Four?
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-4" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas non urna in fringilla. Praesent consequat est at feugiat faucibus
+                </div>
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-5" data-toggle="collapse" data-parent="#accordion">
+                  Question Five?
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-5" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas non urna in fringilla. Praesent consequat est at feugiat faucibus
+                </div>
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+        </div><!-- End panel group -->
+ </div><!-- End container -->
+      </section>
+   
+     <section>  
+    <div class="container">
+        <div class="page-header" id="contact">
+          <h2>Contact Us.<small> Contact us to get a quote.</small></h2>
+        </div><!-- End Page Header -->
+        
+
+        
+    </div>
+     </section>    
+        
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body> 
